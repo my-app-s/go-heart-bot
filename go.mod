@@ -1,4 +1,4 @@
-module github.com/my-app-s/go-heart-bot-core
+module github.com/my-app-s/go-heart-bot
 
 go 1.18
 
