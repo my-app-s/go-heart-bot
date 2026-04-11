@@ -61,16 +61,27 @@ go test ./...
 
 ---
 
-## ⚠️ Disclaimer / Общий отказ от ответственности
+## ⚠️ Disclaimer / Отказ от ответственности
 
-Все репозитории и код предоставляются **"as is"**, без каких-либо гарантий.
-Используя данный код, вы соглашаетесь, что автор **не несёт ответственности** за:
+### English Version
+This project is an **independent development** provided on an **"AS IS"** basis.
 
-- прямой или косвенный ущерб
-- потерю данных
-- юридические последствия использования
+* **Liability:** In no event shall the author be liable for any errors, bugs, or data loss arising from the use of this software.
+* **Status:** This is an experimental tool. Always verify the generated HTML output before deployment.
 
-Используйте на свой страх и риск.
+> [!CAUTION]
+> Any use (operation) of this code is at your own risk.
+
+---
+
+### Русская версия
+Данный проект является **независимой разработкой** и предоставляется «как есть».
+
+* **Ответственность:** Автор не несет ответственности за любые ошибки, баги или потерю данных, возникшие в результате использования данного кода.
+* **Статус:** Это экспериментальный инструмент. Проверяйте сгенерированный HTML перед деплоем.
+
+> [!CAUTION]
+> Любое использование (эксплуатация) данного кода осуществляется на ваш страх и риск.
 
 ---
 
