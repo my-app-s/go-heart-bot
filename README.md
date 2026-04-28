@@ -3,7 +3,11 @@
 Библиотека для упрощённого создания Telegram-ботов на языке Go.
 Проект ориентирован на **простоту, надежность и удобство расширения**.
 
-![status: dev](https://img.shields.io/badge/status-dev-orange)
+> [!NOTE]
+> 
+> ![Go Version](https://img.shields.io/badge/go-1.18%2B-blue.svg)
+> ![License](https://img.shields.io/badge/license-GNU%20AGPLv3-red.svg)
+> ![status: dev](https://img.shields.io/badge/status-dev-orange)
 
 ---
 
