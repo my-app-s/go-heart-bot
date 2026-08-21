@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Static Site
-        uses: my-app-s/go-generator@1
+        uses: my-app-s/go-generator@v1
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
