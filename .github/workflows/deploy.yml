@@ -24,7 +24,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
-        with:
 
       - name: Checkout Generator Repository
         uses: my-app-s/go-generator@v1
