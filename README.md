@@ -8,8 +8,8 @@
 > ![Go Version](https://img.shields.io/badge/go-1.18%2B-blue.svg)
 > ![License](https://img.shields.io/badge/license-GNU%20AGPLv3-red.svg)
 > ![status: dev](https://img.shields.io/badge/status-dev-orange)
-
----
+> ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-green)
+> ![CI](https://github.com/my-app-s/go-heart-bot/actions/workflows/deploy.yml/badge.svg)
 
 ## 📦 Что это
 
@@ -18,8 +18,6 @@
 - Упрощает настройку и запуск бота
 - Содержит готовые модули для работы с Telegram API (`heart/accessbot.go`, `corebot.go`, `degugbot.go`, `infobot.go`, `updatebot.go`)
 - Легко расширяемый и тестируемый
-
----
 
 ## ⚙️ Пример `.env`
 
@@ -31,8 +29,6 @@ STATUS_DEBUG=true
 STATUS_CHECK_ACCESS=false
 TZ=UTC
 ```
-
----
 
 ## 💻 Пример использования
 
@@ -52,8 +48,6 @@ func main() {
 
 > Здесь `NewCoreBot` — функция для инициализации бота. Другие модули (`AccessBot`, `DebugBot`, `InfoBot`, `UpdateBot`) можно подключать по необходимости.
 
----
-
 ## 🧪 Тестирование
 
 ```bash
@@ -63,19 +57,9 @@ go test ./...
 - Запускает все тесты внутри пакета `heart`
 - Использует стандартный `testing` пакет Go
 
----
+## Disclaimer & License
 
-## 📜 Disclaimer
-
-**English**: Materials are provided ***as is*** under the LICENSE file. No warranties, no rights granted unless explicitly stated. Authors are not liable for damages. No partnership or obligations created.  
-
-**Русский**: Материалы предоставляются ***как есть*** и регулируются LICENSE. Гарантий нет, права не передаются без явного указания. Автор(ы) не несут ответственности. Партнёрство или обязательства не создаются.  
-
-📌 See full disclaimer in [DISCLAIMER.md](https://github.com/my-app-s/my-app-s/blob/main/DISCLAIMER.md)
-
----
-
-## 📜 Лицензия
-
-Проект лицензирован под **GNU Affero General Public License v3.0 (AGPLv3)**.
-См. [LICENSE](./LICENSE) для подробностей.
+- **Short Disclaimer (EN)**: Materials are provided ***as is*** under the LICENSE file. No warranties, no rights granted unless explicitly stated. Authors are not liable for damages. No partnership or obligations created.
+- **Short Disclaimer (RU)**: Материалы предоставляются ***как есть*** и регулируются LICENSE. Гарантий нет, права не передаются без явного указания. Автор(ы) не несут ответственности. Партнёрство или обязательства не создаются.
+- **Full Disclaimer**: Read the full text in the [DISCLAIMER.md](https://github.com/my-app-s/my-app-s/blob/main/DISCLAIMER.md) (Available in EN/RU).
+- **License**: Distributed under the [GNU AGPLv3](./LICENSE) license.
